@@ -19,7 +19,7 @@ jobs:
           command: "echo Hello, World!"
   unittest:
     docker:
-      - image: cimg/node:18.40.0
+      - image: cimg/node:19.7.0
     steps:
       - checkout
       - run: npm install
